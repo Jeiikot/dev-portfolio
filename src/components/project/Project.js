@@ -1,14 +1,18 @@
 import React from 'react'
 import './Project.css'
+import { useTranslation } from 'react-i18next'
 
 const Project = ({ project, type }) => {
+  const { i18n } = useTranslation()
+  const lang = i18n.language
+  const descText = typeof project.description === 'object'
+    ? project.description[lang]
+    : project.description
 
   const renderProjectIcon = () => {
-
     if (project.type === 'mobile') {
       return <img className='mobile-platform' src={require('../../images/smartphone.png')} alt="Tech" />
     }
-
     if (project.type === 'web') {
       return <img className='web-platform' src={require('../../images/www.png')} alt="Tech" />
     }
@@ -16,16 +20,14 @@ const Project = ({ project, type }) => {
   }
 
   return (
-    <div
-      className="project-link"
-    >
+    <div className="project-link">
       <div className="project-card-wrapper">
         <div className="project-card">
           <div className="project-name">
             {renderProjectIcon()}
             <h2 className="project-title">{project.name}</h2>
           </div>
-          <p className="project-description">{project.description}</p>
+          <p className="project-description">{descText}</p>
           <div className="project-info">
             <div className="project-info-left">
               {project.languages.map((language) => (
@@ -41,14 +43,13 @@ const Project = ({ project, type }) => {
                 </div>
               ))}
             </div>
-            {
-              project.link &&
+            {project.link && (
               <div className="project-info-right">
-                <a href={project.link} target="_">
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <img src={require('../../images/next.png')} alt="next" />
                 </a>
               </div>
-            }
+            )}
           </div>
         </div>
       </div>

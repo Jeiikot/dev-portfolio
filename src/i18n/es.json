@@ -1,0 +1,61 @@
+{
+  "greeting": "Hola, soy <1>Jeiikot Ramos</1>. 👋",
+  "typewriter": [
+    "Desarrollador backend con más de 5 años de experiencia",
+    "Especialista en Django REST Framework y AWS",
+    "Diseño de APIs, automatización y arquitecturas escalables",
+    "Apasionado por la calidad, el código limpio y CI/CD"
+  ],
+  "resume": "Descargar hoja de vida",
+  "resume_link": "https://drive.google.com/file/d/1_zgFdpLQLzz3T2k9NcAwFwxtVj2irtgv/view?usp=sharing",
+  "profile_alt": "Foto de Jeiikot",
+  "profile": "Desarrollador Backend con experiencia en APIs robustas...",
+  "projects": "Proyectos",
+
+  "about_title": "Sobre mi",
+  "about_whoami": "¿Quién soy?",
+  "about_me": "Soy <1>Jeiikot Ramos</1> 😄",
+  "about_backend": "Desarrollador backend con experiencia en la creación de APIs robustas, seguras y escalables.",
+  "about_aws": "Experto en integración con AWS, autenticación y automatización de reportes.",
+  "about_quality": "Comprometido con la calidad del software, las buenas prácticas y las pruebas automatizadas.",
+  "about_love": "Me encanta:",
+  "about_love_list": [
+    "aprender nuevas tecnologías",
+    "resolver problemas complejos",
+    "colaborar en equipo",
+    "mejorar procesos"
+  ],
+  "about_history": "Desde 2018 he buscado y aprendido nuevas tecnologías en el desarrollo backend. He trabajado en proyectos emocionantes, en empresas líderes y con personas increíbles.",
+  "about_location": "Neiva, Colombia",
+
+  "contact": "Contacto",
+  "contact_description": "¿Quieres contactarme? ¡Puedes enviarme un mensaje o encontrarme en mis redes sociales!",
+
+  "contactform_email": "Correo electrónico",
+  "contactform_message": "Mensaje",
+  "contactform_submit": "Enviar",
+  "contactform_success": "¡Gracias! Tu mensaje ha sido enviado.",
+  "contactform_error": "¡Ups! Ocurrió un error.",
+  "contactform_complete_form": "Por favor completa el formulario para contactarme.",
+
+  "experience": "Experiencia",
+  "experience_linkedin": "Puedes encontrar más experiencia en mi <1>LinkedIn</1>.",
+
+  "nav_home": "Inicio",
+  "nav_about": "Sobre mí",
+  "nav_experience": "Experiencia",
+  "nav_projects": "Proyectos",
+  "nav_contact": "Contacto",
+  "nav_skills": "Habilidades",
+
+  "skills": "Habilidades",
+  "skills_python": "Python",
+  "skills_django": "Django",
+  "skills_django rest framework": "Django REST Framework",
+  "skills_fastapi": "FastAPI",
+  "skills_node.js": "Node.js",
+  "skills_aws": "AWS",
+  "skills_docker": "Docker",
+
+  "footer_message": "Thanks for visiting!"
+}

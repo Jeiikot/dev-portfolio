@@ -7,10 +7,13 @@ import Typewriter from 'typewriter-effect'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
 import config from '../../config'
-import profile from '../../images/anuj.jpg'
+import profile from '../../images/profile.png'
+import { useTranslation, Trans } from 'react-i18next'
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
+  const { t } = useTranslation()
+
   return (
     <div className="home-wrapper">
       <div className="home">
@@ -18,24 +21,17 @@ const Home = () => {
         <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
           <img
             className="profile"
-            alt="Anuj's profile"
+            alt={t('profile_alt')}
             src={profile}
             onLoad={() => setImageLoaded(true)}
           />
           <h1 className="greeting-text">
-            Hi, I'm <span className="name">Anuj Singh</span>.{' '}
-            <span className="wave-emoji" role="img" aria-label="waving hand">
-              👋
-            </span>
+            <Trans i18nKey="greeting" components={[<span className="name" />]} />
           </h1>
           <h1 className="greeting-text">
             <Typewriter
               options={{
-                strings: [
-                  'I like to develop new things',
-                  'I love learning new tech.',
-                  'I love meeting new people.',
-                ],
+                strings: t('typewriter', { returnObjects: true }),
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 10,
@@ -47,11 +43,11 @@ const Home = () => {
           <Bounce cascade>
             <div className="resume-container">
               <a
-                href="https://drive.google.com/file/d/1_zgFdpLQLzz3T2k9NcAwFwxtVj2irtgv/view?usp=sharing"
+                href={t('resume_link')}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Download Resume
+                {t('resume')}
               </a>
             </div>
           </Bounce>

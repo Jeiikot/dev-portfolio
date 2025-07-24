@@ -1,16 +1,19 @@
 import React from 'react'
 import './Footer.css'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation()
+
   return (
     <footer>
       <p className="copyright">
-        <span role="img" aria-label="thinking">
+        <span role="img" aria-label="heart">
           ❤️{' '}
         </span>
-        Thanks for visiting!{' '}
-        <span role="img" aria-label="thinking">
-          ❤️
+        {t('footer_message')}
+        <span role="img" aria-label="heart">
+          {' '}❤️
         </span>
       </p>
     </footer>

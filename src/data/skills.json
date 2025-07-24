@@ -1,156 +1,49 @@
 {
   "skills": [
-    {
-      "skillName": "React Native",
-      "class": "devicon-react-original"
-    },
-    {
-      "skillName": "Angularjs",
-      "class": "devicon-angularjs-plain-wordmark"
-    },
-    {
-      "skillName": "React.js",
-      "class": "devicon-react-original"
-    },
-    {
-      "skillName": "Next.JS",
-      "class": "devicon-nextjs-plain"
-    },
-    {
-      "skillName": "Redux",
-      "class": "devicon-redux-original"
-    },
-    {
-      "skillName": "Javascript",
-      "class": "devicon-javascript-plain"
-    },
-    {
-      "skillName": "Typescript",
-      "class": "devicon-typescript-plain"
-    },
-    {
-      "skillName": "Node JS",
-      "class": "devicon-nodejs-plain-wordmark"
-    },
-    {
-      "skillName": "Ionic",
-      "class": "devicon-ionic-original"
-    },
-    {
-      "skillName": "Angular",
-      "class": "devicon-angularjs-plain"
-    },
-    {
-      "skillName": "GraphQL",
-      "class": "devicon-graphql-plain"
-    },
-    {
-      "skillName": "Axios",
-      "class": "devicon-axios-plain-wordmark"
-    },
-    {
-      "skillName": "Jest",
-      "class": "devicon-jest-plain"
-    },
-    {
-      "skillName": "Realm",
-      "class": "devicon-realm-plain"
-    },
-    {
-      "skillName": "HTML",
-      "class": "devicon-html5-plain"
-    },
-    {
-      "skillName": "CSS",
-      "class": "devicon-css3-plain"
-    },
-    {
-      "skillName": "Bootstrap",
-      "class": "devicon-bootstrap-plain"
-    },
-    {
-      "skillName": "Jquery",
-      "class": "devicon-jquery-plain"
-    },
-    {
-      "skillName": "iOS",
-      "class": "devicon-apple-original"
-    },
-    {
-      "skillName": "Android",
-      "class": "devicon-android-plain"
-    },
-    {
-      "skillName": "Objective C",
-      "class": "devicon-objectivec-plain"
-    },
-    {
-      "skillName": "XCode",
-      "class": "devicon-xcode-plain"
-    },
-    {
-      "skillName": "Android Studio",
-      "class": "devicon-androidstudio-plain"
-    },
-    {
-      "skillName": "Firebase",
-      "class": "devicon-firebase-plain"
-    },
-    {
-      "skillName": "AWS",
-      "class": "devicon-amazonwebservices-plain-wordmark"
-    },
-    {
-      "skillName": "Filezilla",
-      "class": "devicon-filezilla-plain"
-    },
-    {
-      "skillName": "Bash",
-      "class": "devicon-bash-plain"
-    },
-    {
-      "skillName": "Gulp",
-      "class": "devicon-gulp-plain"
-    },
-    {
-      "skillName": "Babel",
-      "class": "devicon-babel-plain"
-    },
-    {
-      "skillName": "Github",
-      "class": "devicon-github-original"
-    },
-    {
-      "skillName": "Gitlab",
-      "class": "devicon-gitlab-plain"
-    },
-    {
-      "skillName": "Bitbucket",
-      "class": "devicon-bitbucket-original"
-    },
-    {
-      "skillName": "Sourcetree",
-      "class": "devicon-sourcetree-original"
-    },
-    {
-      "skillName": "Trello",
-      "class": "devicon-trello-plain"
-    },
-    {
-      "skillName": "JIRA",
-      "class": "devicon-jira-plain"
-    },
-    {
-      "skillName": "Heroku",
-      "class": "devicon-heroku-original"
-    },
-    {
-      "skillName": "Vercel",
-      "class": "devicon-vercel-original"
-    },
-    {
-      "skillName": "NPM",
-      "class": "devicon-npm-original-wordmark"
-    }
+    { "skillName": "Python", "class": "devicon-python-plain" },
+    { "skillName": "Django", "class": "devicon-django-plain" },
+    { "skillName": "Django REST", "class": "devicon-djangorest-plain" },
+    { "skillName": "FastAPI", "class": "devicon-fastapi-plain" },
+    { "skillName": "SQLAlchemy", "class": "devicon-sqlalchemy-plain" },
+    { "skillName": "GraphQL", "class": "devicon-graphql-plain" },
+
+    { "skillName": "AWS", "class": "devicon-amazonwebservices-plain-wordmark" },
+    { "skillName": "DynamoDB", "class": "devicon-dynamodb-plain" },
+    { "skillName": "Vercel", "class": "devicon-vercel-original"},
+    { "skillName": "Docker", "class": "devicon-docker-plain" },
+    { "skillName": "GitHub Actions", "class": "devicon-githubactions-plain" },
+    { "skillName": "Pytest", "class": "devicon-pytest-plain" },
+
+    { "skillName": "Git", "class": "devicon-git-plain" },
+    { "skillName": "GitHub", "class": "devicon-github-original" },
+    { "skillName": "Bitbucket", "class": "devicon-bitbucket-original" },
+    { "skillName": "Postman", "class": "devicon-postman-plain" },
+    { "skillName": "JIRA", "class": "devicon-jira-plain" },
+    { "skillName": "Sentry", "class": "devicon-sentry-original" },
+    { "skillName": "Figma", "class": "devicon-figma-plain" },
+    { "skillName": "Slack", "class": "devicon-slack-plain" },
+    { "skillName": "PyCharm", "class": "devicon-pycharm-plain"},
+
+    { "skillName": "PostgreSQL", "class": "devicon-postgresql-plain" },
+    { "skillName": "Neo4j", "class": "devicon-neo4j-plain" },
+    { "skillName": "SQLite", "class": "devicon-sqlite-plain" },
+
+    { "skillName": "Linux", "class": "devicon-linux-plain" },
+    { "skillName": "Linux Mint", "class": "devicon-linuxmint-plain" },
+    { "skillName": "Ubuntu", "class": "devicon-ubuntu-plain" },
+    { "skillName": "Bash", "class": "devicon-bash-plain" },
+
+    { "skillName": "HTML", "class": "devicon-html5-plain" },
+    { "skillName": "CSS", "class": "devicon-css3-plain" },
+    { "skillName": "JavaScript", "class": "devicon-javascript-plain" },
+    { "skillName": "Bootstrap", "class": "devicon-bootstrap-plain" },
+    { "skillName": "jQuery", "class": "devicon-jquery-plain" },
+
+    { "skillName": "Qt", "class": "devicon-qt-original" },
+    { "skillName": "Raspberry Pi", "class": "devicon-raspberrypi-plain" },
+    { "skillName": "Arduino", "class": "devicon-arduino-plain" },
+    { "skillName": "PuTTY", "class": "devicon-putty-plain" },
+    { "skillName": "LabVIEW", "class": "devicon-labview-plain" },
+    { "skillName": "Matlab", "class": "devicon-matlab-plain" }
   ]
 }

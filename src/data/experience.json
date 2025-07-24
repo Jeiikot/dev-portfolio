@@ -2,76 +2,170 @@
   "experience": [
     {
       "id": 1,
-      "link": "https://logiciel.io/",
-      "company": "Logiciel Solutions",
-      "title": "Sr. Mobile App Developer",
-      "dateFrom": "Sept 2016",
-      "dateTo": "May 2021",
-      "info": [
-        "Developed products of American SaaS & Real Estate clients.",
-        "Team Management along with Sprint & Release plans."
-      ],
+      "link": "https://ruedata.com/",
+      "company": "Ruedata",
+      "title": {
+        "es": "Desarrollador Backend",
+        "en": "Backend Developer"
+      },
+      "dateFrom": "Ene 2023",
+      "dateTo": "Jun 2025",
+      "info": {
+        "es": [
+          "Lideré un motor de permisos granular adaptable por cliente, rol y plan, validado con pruebas automatizadas.",
+          "Incrementé la cobertura de pruebas del módulo de permisos del 45 % al 92 % con Pytest, reduciendo un 35 % los bugs críticos en dos sprints.",
+          "Construí APIs REST con Django REST Framework, garantizando alto rendimiento y escalabilidad.",
+          "Automaticé la generación de PDFs (WeasyPrint + HTML en S3), eliminando tareas manuales y acelerando procesos operativos.",
+          "Implementé revocación segura de tokens con DynamoDB y optimicé el flujo de imágenes vía Lambda y S3 Glacier."
+        ],
+        "en": [
+          "Led a granular permissions engine adaptable by client, role, and plan, validated with automated testing.",
+          "Increased the test coverage of the permissions module from 45% to 92% with Pytest, reducing critical bugs by 35% in two sprints.",
+          "Built REST APIs with Django REST Framework, ensuring high performance and scalability.",
+          "Automated PDF generation (WeasyPrint + HTML in S3), eliminating manual tasks and speeding up operations.",
+          "Implemented secure token revocation with DynamoDB and optimized the image flow using Lambda and S3 Glacier."
+        ]
+      },
       "stack": [
-        "React Native",
-        "Objective C",
-        "Swift",
-        "React.js",
-        "Ionic",
-        "Angularjs",
-        "Flutter"
+        "Python",
+        "Django REST Framework",
+        "AWS",
+        "PostgreSQL",
+        "Docker",
+        "Pytest",
+        "FastAPI",
+        "Pydantic",
+        "WeasyPrint"
       ],
-      "logowidth": 80,
-      "colourPrimary": "linear-gradient(to bottom, #a31013, #ed4043)",
-      "colourSecondary": "linear-gradient(to bottom, #a31013, #ed4043)"
+      "logowidth": 80
     },
     {
-      "id": 0,
-      "link": "https://worksdelight.com/",
-      "company": "Worksdelight",
-      "title": "Team Lead (JS / React.js / React Native)",
-      "dateFrom": "May 2021",
-      "dateTo": "July 2022",
-      "info": [
-        "Responsible for web team front-end development and design",
-        "Responsible for React Native Development & design."
-      ],
+      "id": 2,
+      "link": "",
+      "company": "Acreditta",
+      "title": {
+        "es": "Desarrollador Backend",
+        "en": "Backend Developer"
+      },
+      "dateFrom": "Ago 2021",
+      "dateTo": "Feb 2023",
+      "info": {
+        "es": [
+          "Diseñé e implementé APIs REST para la gestión de credenciales digitales bajo el estándar Open Badges v2.",
+          "Automaticé la generación de certificados PDF de insignias digitales con WeasyPrint y AWS Lambda + S3.",
+          "Implementé un sistema de autenticación y control de acceso usando AWS Cognito y Django.",
+          "Desarrollé un módulo de permisos básico adaptado a tipos de usuarios y roles."
+        ],
+        "en": [
+          "Designed and implemented REST APIs for managing digital credentials under the Open Badges v2 standard.",
+          "Automated PDF certificate generation for digital badges with WeasyPrint and AWS Lambda + S3.",
+          "Implemented authentication and access control using AWS Cognito and Django.",
+          "Built a basic permissions module adapted to user types and roles."
+        ]
+      },
       "stack": [
-        "React Native",
-        "React.js",
-        "Angular",
-        "Javascript",
-        "Firebase",
-        "Nodejs"
+        "Python",
+        "Django REST Framework",
+        "AWS",
+        "Docker",
+        "PostgreSQL",
+        "WeasyPrint",
+        "Pytest"
       ],
-      "logoheight": 80,
-      "colourPrimary": "linear-gradient(to bottom, #62cd70, #cfefd1)",
-      "colourSecondary": "linear-gradient(to bottom, #62cd70, #cfefd1)"
+      "logowidth": 80
     },
+
     {
       "id": 3,
-      "link": "https://geekyants.com/",
-      "company": "GeekyAnts",
-      "title": "Sr. Software Engineer",
-      "dateFrom": "Aug 2022",
-      "dateTo": "Current",
-      "info": [
-        "Developing products for Tele-communication industry.",
-        "Team Management along with Sprint & Release plans.",
-        "Trainings to Freshers."
-      ],
+      "link": "",
+      "company": "TICSOCIAL",
+      "title": {
+        "es": "Desarrollador de Software",
+        "en": "Software Developer"
+      },
+      "dateFrom": "Dic 2020",
+      "dateTo": "Ago 2021",
+      "info": {
+        "es": [
+          "Desarrollé nuevas funcionalidades Frontend con AngularJS, mejorando la experiencia de usuario en el módulo de reportes.",
+          "Amplié la lógica de negocio en Django para automatizar procesos internos y mejorar el flujo de datos.",
+          "Administré la base de datos PostgreSQL y brindé soporte de segundo nivel, resolviendo incidencias proactivamente y reduciendo tiempos de respuesta."
+        ],
+        "en": [
+          "Developed new Frontend features using AngularJS, enhancing the user experience in the reporting module.",
+          "Extended Django business logic to automate internal processes and improve data flow.",
+          "Managed PostgreSQL databases and provided second-level support, proactively resolving incidents and reducing response times."
+        ]
+      },
       "stack": [
-        "React Native",
-        "Redux",
-        "Android",
-        "iOS",
-        "Genesys",
-        "React.js",
-        "Firebase",
-        "Flutter"
+        "Python",
+        "Django",
+        "AngularJS",
+        "PostgreSQL",
+        "jQuery",
+        "Bootstrap"
       ],
-      "logowidth": 80,
-      "colourPrimary": "linear-gradient(to bottom, #CA0000, #ed4043)",
-      "colourSecondary": "linear-gradient(to bottom, #CA0000, #ed4043)"
+      "logowidth": 80
+    },
+    {
+      "id": 4,
+      "link": "",
+      "company": "Newlab Nutrition",
+      "title": {
+        "es": "Ingeniero de Software",
+        "en": "Software Engineer"
+      },
+      "dateFrom": "Oct 2019",
+      "dateTo": "Mar 2020",
+      "info": {
+        "es": [
+          "Personalicé funcionalidades del ERP basado en Odoo, con enfoque en los módulos de Nómina y Empleados.",
+          "Automaticé procesos de migración de datos utilizando archivos planos.",
+          "Brindé soporte técnico y realicé mejoras funcionales en los módulos de inventario, ventas y contabilidad."
+        ],
+        "en": [
+          "Customized ERP functionalities based on Odoo, focusing on Payroll and Employee modules.",
+          "Automated data migration processes using flat files.",
+          "Provided technical support and implemented functional improvements in inventory, sales, and accounting modules."
+        ]
+      },
+      "stack": [
+        "Python",
+        "Odoo",
+        "Git"
+      ],
+      "logowidth": 80
+    },
+    {
+      "id": 5,
+      "link": "",
+      "company": "Universidad Antonio Nariño",
+      "title": {
+        "es": "Joven Investigador",
+        "en": "Junior Researcher"
+      },
+      "dateFrom": "Mar 2019",
+      "dateTo": "Oct 2019",
+      "info": {
+        "es": [
+          "Automaticé procesos de simulación estática utilizando DIgSILENT PowerFactory y Neo4j.",
+          "Desarrollé scripts en Python para consultas a bases de datos y análisis de contingencias.",
+          "Aseguré la integridad del proyecto mediante respaldo automatizado y documentación de las herramientas desarrolladas."
+        ],
+        "en": [
+          "Automated static simulation processes using DIgSILENT PowerFactory and Neo4j.",
+          "Developed Python scripts for database queries and contingency analysis.",
+          "Ensured project integrity by automating backups and documenting all developed tools."
+        ]
+      },
+      "stack": [
+        "Python",
+        "Neo4j",
+        "PowerFactory",
+        "Git"
+      ],
+      "logowidth": 80
     }
+
   ]
 }

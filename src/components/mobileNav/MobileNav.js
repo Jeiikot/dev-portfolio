@@ -1,8 +1,11 @@
 import React from 'react'
 import './MobileNav.css'
 import { Link } from 'react-scroll'
+import { useTranslation } from 'react-i18next'
 
 const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
+  const { t } = useTranslation()
+
   return (
     <div className="mobilenav-wrapper">
       <div className={'mobilenav ' + (mobilenavVisible ? 'on' : 'off')}>
@@ -16,7 +19,7 @@ const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
               duration={500}
               onClick={toggleMobilenavVisible}
             >
-              HOME
+              {t('nav_home')}
             </Link>
           </div>
           <div className="mobilenavlink">
@@ -29,7 +32,7 @@ const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
               duration={500}
               onClick={toggleMobilenavVisible}
             >
-              ABOUT
+              {t('nav_about')}
             </Link>
           </div>
           <div className="mobilenavlink">
@@ -41,7 +44,7 @@ const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
               duration={500}
               onClick={toggleMobilenavVisible}
             >
-              EXPERIENCE
+              {t('nav_experience')}
             </Link>
           </div>
           <div className="mobilenavlink">
@@ -53,7 +56,7 @@ const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
               duration={500}
               onClick={toggleMobilenavVisible}
             >
-              PROJECTS
+              {t('nav_projects')}
             </Link>
           </div>
           <div className="mobilenavlink">
@@ -65,7 +68,7 @@ const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
               duration={500}
               onClick={toggleMobilenavVisible}
             >
-              CONTACT
+              {t('nav_contact')}
             </Link>
           </div>
         </div>

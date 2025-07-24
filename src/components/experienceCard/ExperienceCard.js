@@ -1,15 +1,37 @@
 import React from 'react'
 import './ExperienceCard.css'
+import { useTranslation } from 'react-i18next'
 
 const ExperienceCard = ({ experience }) => {
-  let { link, company, title, dateFrom, dateTo, info, stack } = experience
+  const { i18n } = useTranslation()
+  const lang = i18n.language
+
+  const title = typeof experience.title === 'object' ? experience.title[lang] : experience.title
+
+  const infoLines = Array.isArray(experience.info?.[lang])
+    ? experience.info[lang]
+    : experience.info?.[lang]
+      ? [experience.info[lang]]
+      : []
+
+  const dateTo =
+    experience.dateTo === 'Actualidad' && lang === 'en'
+      ? 'Present'
+      : experience.dateTo
+
+  let logoFile = ''
+  try {
+    logoFile = require(`../../images/logos/${experience.company.replace(/ /g, '').toLowerCase()}.png`)
+  } catch {
+    logoFile = require(`../../images/logos/default.png`)
+  }
+
+  const Wrapper = experience.link
+    ? (props) => <a className="experience-link" href={experience.link} target="_blank" rel="noopener noreferrer">{props.children}</a>
+    : (props) => <div className="experience-link">{props.children}</div>
+
   return (
-    <a
-      className="experience-link"
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <Wrapper>
       <div className="experience-card-wrapper">
         <div className="experience-card">
           <div className="experience-card-top">
@@ -17,7 +39,7 @@ const ExperienceCard = ({ experience }) => {
               className="experience-bg"
               style={{ background: experience.colourPrimary }}
             ></div>
-            <h2>{company}</h2>
+            <h2>{experience.company}</h2>
             <div className="image-wrapper">
               <div
                 className="experience-bg logo-bg"
@@ -29,15 +51,11 @@ const ExperienceCard = ({ experience }) => {
               ></div>
               <img
                 className="company-logo"
-                src={require(`../../images/logos/${company
-                  .replace(/ /g, '')
-                  .toLowerCase()}.png`)}
-                alt={`${company}-logo`}
+                src={logoFile}
+                alt={`${experience.company}-logo`}
                 style={
                   experience.logoheight
-                    ? {
-                        height: `${experience.logoheight}%`,
-                      }
+                    ? { height: `${experience.logoheight}%` }
                     : { width: `${experience.logowidth}%` }
                 }
               />
@@ -47,25 +65,25 @@ const ExperienceCard = ({ experience }) => {
             <div>
               <h2>{title}</h2>
               <h3>
-                {dateFrom} - {dateTo}
+                {experience.dateFrom} - {dateTo}
               </h3>
               <ul>
-                {info.map((point, idx) => (
-                  <li key={`${company}-point-${idx}`}>{point}</li>
+                {infoLines.map((point, idx) => (
+                  <li key={`${experience.company}-point-${idx}`}>{point}</li>
                 ))}
               </ul>
             </div>
             <div className="experience-card-tech">
               <ul>
-                {stack.map((tech) => (
-                  <li key={`${company}-${tech}`}>{tech}</li>
+                {experience.stack.map((tech) => (
+                  <li key={`${experience.company}-${tech}`}>{tech}</li>
                 ))}
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </a>
+    </Wrapper>
   )
 }
 

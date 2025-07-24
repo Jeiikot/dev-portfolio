@@ -1,0 +1,62 @@
+{
+  "greeting": "Hi, I'm <1>Jeiikot Ramos</1>. 👋",
+  "typewriter": [
+    "Backend developer with 5+ years of experience",
+    "Expert in Django REST Framework and AWS",
+    "API design, automation & scalable architectures",
+    "Passionate about software quality, clean code and CI/CD"
+  ],
+  "resume": "Download Resume",
+  "resume_link": "https://drive.google.com/file/d/1_zgFdpLQLzz3T2k9NcAwFwxtVj2irtgv/view?usp=sharing",
+  "profile_alt": "Photo of Jeiikot",
+  "about": "About me",
+  "profile": "Backend developer experienced in robust APIs...",
+  "projects": "Projects",
+
+  "about_title": "About me",
+  "about_whoami": "Who am I?",
+  "about_me": "I'm <1>Jeiikot Ramos</1> 😄",
+  "about_backend": "Backend developer experienced in building robust, secure, and scalable APIs.",
+  "about_aws": "Expert in AWS integration, authentication, and report automation.",
+  "about_quality": "Committed to software quality, best practices, and automated testing.",
+  "about_love": "I love:",
+  "about_love_list": [
+    "learning new technologies",
+    "solving complex problems",
+    "collaborating with teams",
+    "improving processes"
+  ],
+  "about_history": "Since 2018, I have continuously sought out and learned new technologies in backend development. I've worked on exciting <1>projects</1>, at leading <2>companies</2>, and alongside incredible people.",
+  "about_location": "Neiva, Colombia",
+
+  "contact": "Contact",
+  "contact_description": "Want to get in touch? You can send me a message or find me on my social media!",
+
+  "contactform_email": "Email",
+  "contactform_message": "Message",
+  "contactform_submit": "Submit",
+  "contactform_success": "Thanks! Your message has been sent.",
+  "contactform_error": "Ooops! There was an error.",
+  "contactform_complete_form": "Please complete the form to contact me.",
+
+  "experience": "Experience",
+  "experience_linkedin": "Further in-depth experience can be found on my <1>LinkedIn</1>.",
+
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_experience": "Experience",
+  "nav_projects": "Projects",
+  "nav_contact": "Contact",
+  "nav_skills": "Skills",
+
+  "skills": "Skills",
+  "skills_python": "Python",
+  "skills_django": "Django",
+  "skills_django rest framework": "Django REST Framework",
+  "skills_fastapi": "FastAPI",
+  "skills_node.js": "Node.js",
+  "skills_aws": "AWS",
+  "skills_docker": "Docker",
+
+  "footer_message": "¡Gracias por visitar!"
+}

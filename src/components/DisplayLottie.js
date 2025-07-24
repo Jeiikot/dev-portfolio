@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import Lottie from 'react-lottie'
 
 const DisplayLottie = ({ animationData }) => {
@@ -9,11 +9,9 @@ const DisplayLottie = ({ animationData }) => {
   }
 
   return (
-    <Suspense>
-      <div onClick={() => null}>
-        <Lottie options={defaultOptions} />
-      </div>
-    </Suspense>
+    <div onClick={() => null}>
+      <Lottie options={defaultOptions} />
+    </div>
   )
 }
 

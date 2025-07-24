@@ -2,10 +2,13 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-scroll'
 import MobileNav from '../mobileNav/MobileNav'
+import { useTranslation } from 'react-i18next'
 
 const Navbar = () => {
   const [mobilenavVisible, setMobilenavVisible] = useState(false)
   const [hamburgerClass, setHamburgerClass] = useState('')
+  const { t } = useTranslation()
+
   const toggleMobilenavVisible = () => {
     setMobilenavVisible(!mobilenavVisible)
     if (hamburgerClass === '') {
@@ -19,32 +22,32 @@ const Navbar = () => {
       <div className="navlinks">
         <div className="navlink-wrapper">
           <Link to="home" spy={true} smooth={true} duration={500}>
-            HOME
+            {t('nav_home')}
           </Link>
         </div>
         <div className="navlink-wrapper">
           <Link to="about" spy={true} smooth={true} duration={500}>
-            ABOUT
+            {t('nav_about')}
           </Link>
         </div>
         <div className="navlink-wrapper">
           <Link to="skills" spy={true} smooth={true} duration={500}>
-            SKILLS
+            {t('nav_skills')}
           </Link>
         </div>
         <div className="navlink-wrapper">
           <Link to="experience" spy={true} smooth={true} duration={500}>
-            EXPERIENCE
+            {t('nav_experience')}
           </Link>
         </div>
         <div className="navlink-wrapper">
           <Link to="projects" spy={true} smooth={true} duration={500}>
-            PROJECTS
+            {t('nav_projects')}
           </Link>
         </div>
         <div className="navlink-wrapper">
           <Link to="contact" spy={true} smooth={true} duration={500}>
-            CONTACT
+            {t('nav_contact')}
           </Link>
         </div>
       </div>

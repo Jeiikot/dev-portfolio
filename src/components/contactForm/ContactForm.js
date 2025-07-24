@@ -3,6 +3,7 @@ import './ContactForm.css'
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core/styles'
+import { useTranslation } from 'react-i18next'
 
 const useStyles = makeStyles((theme) => ({
   email: {
@@ -63,22 +64,19 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 }))
-
 const ContactForm = () => {
   const [status, setStatus] = useState('')
   const [emailText, setEmailText] = useState('')
   const [messageText, setMessageText] = useState('')
-
+  const { t } = useTranslation()
   const classes = useStyles()
 
   const submitForm = (ev) => {
     ev.preventDefault()
-    console.log('submitForm', emailText, messageText)
     if (!emailText || !messageText) {
-      setStatus('Please Complete the form to contact.')
+      setStatus(t('contactform_complete_form'))
       return
     }
-
     const form = ev.target
     const data = new FormData(form)
     const xhr = new XMLHttpRequest()
@@ -98,15 +96,8 @@ const ContactForm = () => {
     xhr.send(data)
   }
 
-  const handleEmailChange = (event) => {
-    const input = String(event.target.value)
-    setEmailText(input)
-  }
-
-  const handleMessageChange = (event) => {
-    const input = String(event.target.value)
-    setMessageText(input)
-  }
+  const handleEmailChange = (event) => setEmailText(String(event.target.value))
+  const handleMessageChange = (event) => setMessageText(String(event.target.value))
 
   return (
     <div className="contact-form-wrapper">
@@ -120,7 +111,7 @@ const ContactForm = () => {
           className={classes.email}
           type="email"
           name="email"
-          label="Email"
+          label={t('contactform_email')}
           value={emailText}
           onChange={handleEmailChange}
           variant="filled"
@@ -129,25 +120,22 @@ const ContactForm = () => {
           className={classes.message}
           type="text"
           name="message"
-          label="Message"
+          label={t('contactform_message')}
           value={messageText}
           onChange={handleMessageChange}
           multiline
-          minRows="5"
+          minRows={5}
           variant="filled"
         />
         {status === 'SUCCESS' ? (
-          <p className="email-success">Thanks!</p>
+          <p className="email-success">{t('contactform_success')}</p>
         ) : (
           <Button className={classes.submit} type="submit" variant="contained">
-            Submit
+            {t('contactform_submit')}
           </Button>
         )}
-        {status === 'ERROR' && <p>Ooops! There was an error.</p>}
-        {(status
-          && status !== 'SUCCESS'
-          && status !== 'ERROR') && <p>{status}</p>
-        }
+        {status === 'ERROR' && <p>{t('contactform_error')}</p>}
+        {(status && status !== 'SUCCESS' && status !== 'ERROR') && <p>{status}</p>}
       </form>
     </div>
   )
