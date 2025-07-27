@@ -3,7 +3,7 @@ import './Project.css'
 import { useTranslation } from 'react-i18next'
 
 const Project = ({ project, type }) => {
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
   const lang = i18n.language
   const descText = typeof project.description === 'object'
     ? project.description[lang]
@@ -43,13 +43,44 @@ const Project = ({ project, type }) => {
                 </div>
               ))}
             </div>
-            {project.link && (
-              <div className="project-info-right">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <div className="project-info-right">
+              {project.code && (
+                <a
+                  className="btn-cta"
+                  href={project.code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Repositorio en GitHub"
+                  title="Repositorio en GitHub"
+                >
+                  <span>{t('projects_repo')}</span>
+                </a>
+              )}
+
+              {project.demo && (
+                <a
+                  className="btn-cta outline"
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Demo"
+                  title="Demo"
+                >
+                  <span>{t('projects_demo')}</span>
+                </a>
+              )}
+
+              {!project.repo && !project.code && project.demo && (
+                <a
+                  className="btn-icon"
+                  href={project.repo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={require('../../images/next.png')} alt="next" />
                 </a>
-              </div>
-            )}
+              )}
+            </div>
           </div>
         </div>
       </div>
