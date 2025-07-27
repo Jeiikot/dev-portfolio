@@ -14,7 +14,7 @@ const Contact = () => {
   const { t } = useTranslation()
 
   return (
-    <Section title={t('contact')}>
+    <Section title={t('contact')} id="contact">
       <p className="contact-description">{t('contact_description')}</p>
       <ContactForm />
       <Bounce cascade>
