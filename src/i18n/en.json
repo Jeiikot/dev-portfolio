@@ -58,5 +58,8 @@
   "skills_aws": "AWS",
   "skills_docker": "Docker",
 
+  "projects_repo": "Repository",
+  "projects_demo": "Demo",
+
   "footer_message": "¡Gracias por visitar!"
 }

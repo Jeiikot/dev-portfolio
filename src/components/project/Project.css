@@ -125,3 +125,32 @@
     transform: translateX(0);
   }
 }
+
+.project-info-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 9999px;
+  background: #0be779; /* tu verde */
+  color: #0b1424;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform .15s ease, filter .15s ease;
+}
+
+.btn-cta:hover { transform: translateY(-1px); filter: brightness(1.05); }
+
+.btn-cta.outline {
+  background: transparent;
+  border: 2px solid #0be779;
+  color: #fff;
+}
+
+.btn-icon img { width: 22px; height: 22px; }
