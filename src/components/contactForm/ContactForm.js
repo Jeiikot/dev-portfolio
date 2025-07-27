@@ -104,10 +104,10 @@ const ContactForm = () => {
       <form
         className="contact-form"
         onSubmit={submitForm}
-        action="https://formspree.io/f/xayvejyv"
+        action="https://formspree.io/f/mqalbaad"
         method="POST"
       >
-        <TextField
+        <TextField<
           className={classes.email}
           type="email"
           name="email"

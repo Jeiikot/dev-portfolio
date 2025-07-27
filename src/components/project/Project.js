@@ -20,7 +20,7 @@ const Project = ({ project, type }) => {
   }
 
   return (
-    <div className="project-link">
+    <div className="project-link" id="projects">
       <div className="project-card-wrapper">
         <div className="project-card">
           <div className="project-name">
