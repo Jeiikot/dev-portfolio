@@ -4,13 +4,14 @@
       "name": "Star Wars GraphQL API",
       "link": "https://github.com/Jeiikot/starwars-graphql-django",
       "description": {
-        "es": "API GraphQL construida con Django y Graphene para consultar, crear y relacionar personajes, películas y planetas del universo Star Wars. Incluye autenticación, validaciones y arquitectura profesional. Desarrollada como prueba técnica para demostrar habilidades avanzadas en Django y GraphQL.",
-        "en": "GraphQL API built with Django and Graphene to query, create, and relate Star Wars characters, movies, and planets. Features authentication, validations, and professional architecture. Developed as a technical challenge to demonstrate advanced Django and GraphQL skills."
+        "es": "API GraphQL construida con Django y Graphene para consultar, crear y relacionar personajes, películas y planetas del universo Star Wars. Desarrollada como prueba técnica para demostrar habilidades avanzadas en Django y GraphQL.",
+        "en": "GraphQL API built with Django and Graphene to query, create, and relate Star Wars characters, movies, and planets. Developed as a technical challenge to demonstrate Django and GraphQL skills."
       },
       "colour": "linear-gradient(to right, #001c38, #2186f7)",
       "languages": [
         { "name": "Python", "color": "#3572A5" },
         { "name": "Django", "color": "#092E20" },
+        { "name": "Graphene", "color": "#e535ab" },
         { "name": "GraphQL", "color": "#e535ab" }
       ],
       "type": "web"
