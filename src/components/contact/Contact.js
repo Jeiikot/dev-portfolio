@@ -29,39 +29,12 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://stackoverflow.com/users/tu_stackoverflow_id"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Stackoverflow"
-          >
-            <img src={Stackoverflow} alt="Stackoverflow Logo" width="40px" />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/jeiikot"
+            href="https://www.linkedin.com/in/jeiikot-ramos"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
             <img src={linkedin} alt="Linkedin Logo" width="40px" />
-          </a>
-
-          <a
-            href="https://www.instagram.com/tu_instagram/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram"
-          >
-            <img src={instagram} alt="Instagram Logo" width="40px" />
-          </a>
-
-          <a
-            href="https://twitter.com/tu_twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-          >
-            <img src={twitter} alt="Twitter Logo" width="40px" />
           </a>
         </div>
       </Bounce>

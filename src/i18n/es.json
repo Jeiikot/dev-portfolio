@@ -1,13 +1,13 @@
 {
   "greeting": "Hola, soy <1>Jeiikot Ramos</1>. 👋",
   "typewriter": [
-    "Desarrollador backend con más de 5 años de experiencia",
-    "Especialista en Django REST Framework y AWS",
-    "Diseño de APIs, automatización y arquitecturas escalables",
+    "Backend developer con más de 5 años de experiencia",
+    "Experiencia sólida en Python, Django REST Framework y AWS",
+    "Diseño de APIs REST/GraphQL, automatización y arquitecturas escalables",
     "Apasionado por la calidad, el código limpio y CI/CD"
   ],
   "resume": "Descargar hoja de vida",
-  "resume_link": "https://drive.google.com/file/d/1_zgFdpLQLzz3T2k9NcAwFwxtVj2irtgv/view?usp=sharing",
+  "resume_link": "https://drive.google.com/file/d/1QJcPNE2AquSSW3EERElbEsoYEKQ5SGb3/view?usp=drive_link",
   "profile_alt": "Foto de Jeiikot",
   "profile": "Desarrollador Backend con experiencia en APIs robustas...",
   "projects": "Proyectos",
