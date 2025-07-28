@@ -107,7 +107,7 @@ const ContactForm = () => {
         action="https://formspree.io/f/mqalbaad"
         method="POST"
       >
-        <TextField<
+        <TextField
           className={classes.email}
           type="email"
           name="email"
