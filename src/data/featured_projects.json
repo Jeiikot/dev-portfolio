@@ -5,16 +5,25 @@
       "repo": "https://github.com/Jeiikot/starwars-graphql-django",
       "code": "https://github.com/Jeiikot/starwars-graphql-django/tree/main",
       "demo": "https://starwars-graphql-django.onrender.com/graphql/",
+      "excerpt": {
+        "es": "API GraphQL con Django + Graphene para explorar y relacionar personajes, películas y planetas de Star Wars. Ingesta desde SWAPI, validaciones y tests.",
+        "en": "GraphQL API with Django + Graphene to explore and relate Star Wars characters, films, and planets. SWAPI ingestion, validations, and automated tests."
+        },
       "description": {
-        "es": "API GraphQL construida con Django y Graphene para consultar, crear y relacionar personajes, películas y planetas del universo Star Wars. Desarrollada como prueba técnica para demostrar habilidades avanzadas en Django y GraphQL.",
-        "en": "GraphQL API built with Django and Graphene to query, create, and relate Star Wars characters, movies, and planets. Developed as a technical challenge to demonstrate Django and GraphQL skills."
+        "es": "API GraphQL con Django 4 + Graphene para consultar, crear y relacionar entidades del universo Star Wars. Incluye carga de datos desde SWAPI mediante comando de gestión, mutaciones con validación, y filtros/paginación estilo Relay. Historial de cambios con django-simple-history, tests con Pytest y CI en GitHub Actions. Despliegue en Docker con Gunicorn/Whitenoise; endpoint /graphql con GraphiQL",
+        "en": "GraphQL API using Django 4 + Graphene to query, create, and relate Star Wars entities. Includes SWAPI data loading via a management command, validated mutations, and Relay‑style filtering/pagination. Change history with django-simple-history, Pytest tests, and GitHub Actions CI. Deployed with Docker using Gunicorn/Whitenoise; /graphql endpoint with GraphiQL."
       },
       "colour": "linear-gradient(to right, #001c38, #2186f7)",
       "languages": [
-        { "name": "Python", "color": "#3572A5" },
-        { "name": "Django", "color": "#092E20" },
-        { "name": "Graphene", "color": "#e535ab" },
-        { "name": "GraphQL", "color": "#e535ab" }
+        { "name": "Python",        "color": "#3572A5" },
+        { "name": "Django",        "color": "#092E20" },
+        { "name": "Pytest",        "color": "#0A9EDC" },
+        { "name": "Graphene",      "color": "#e535ab" },
+        { "name": "GraphQL",       "color": "#e535ab" },
+        { "name": "Relay",         "color": "#00B0FF" },
+        { "name": "Docker",        "color": "#2496ED" },
+        { "name": "PostgreSQL",       "color": "#336791" },
+        { "name": "GitHub Actions",   "color": "#2088FF" }
       ],
       "type": "web"
     }
