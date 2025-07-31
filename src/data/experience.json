@@ -12,18 +12,22 @@
       "dateTo": "Jun 2025",
       "info": {
         "es": [
-          "Lideré un motor de permisos granular adaptable por cliente, rol y plan, validado con pruebas automatizadas.",
-          "Incrementé la cobertura de pruebas del módulo de permisos del 45 % al 92 % con Pytest, reduciendo un 35 % los bugs críticos en dos sprints.",
-          "Construí APIs REST con Django REST Framework, garantizando alto rendimiento y escalabilidad.",
-          "Automaticé la generación de PDFs (WeasyPrint + HTML en S3), eliminando tareas manuales y acelerando procesos operativos.",
-          "Implementé revocación segura de tokens con DynamoDB y optimicé el flujo de imágenes vía Lambda y S3 Glacier."
+          "Testing & QA: Elevé la cobertura del módulo de permisos 45%→92% aplicando pirámide de tests (unit/ integration), fixtures parametrizadas, coverage con umbral en GitHub Actions y revisión de PRs; −35% bugs críticos en 2 sprints.",
+          "Performance (DRF/PostgreSQL): Reduje la latencia promedio a ~120 ms en endpoints (autenticación, permisos, paginación, filtros) eliminando N+1 con select_related/prefetch_related, creando índices en PostgreSQL, ajustando paginación y añadiendo caché.",
+          "Seguridad / Acceso (RBAC): Diseñé e implementé RBAC multicliente con scopes por cliente/rol/plan, auditoría de cambios y pruebas automatizadas en reglas críticas.",
+          "Automatización de PDFs (WeasyPrint + Jinja2): Automaticé la generación y almacenamiento en AWS S3, eliminando tareas manuales y acelerando procesos operativos.",
+          "Revocación de tokens (Cognito/DynamoDB): Implementé revocación segura mediante hash irreversible de idToken con registro en Amazon DynamoDB.",
+          "Imágenes y costos (AWS Lambda + S3 Glacier): Optimicé el pipeline de imágenes con AWS Lambda y archivado en S3 Glacier, reforzando seguridad y reduciendo costos de almacenamiento.",
+          "Sincronización offline (FastAPI/Pydantic/SQLAlchemy): Mejoré el microservicio offline con validaciones de esquema y conciliación con la API; menos duplicados e incidencias."
         ],
         "en": [
-          "Led a granular permissions engine adaptable by client, role, and plan, validated with automated testing.",
-          "Increased the test coverage of the permissions module from 45% to 92% with Pytest, reducing critical bugs by 35% in two sprints.",
-          "Built REST APIs with Django REST Framework, ensuring high performance and scalability.",
-          "Automated PDF generation (WeasyPrint + HTML in S3), eliminating manual tasks and speeding up operations.",
-          "Implemented secure token revocation with DynamoDB and optimized the image flow using Lambda and S3 Glacier."
+          "Testing & QA: Increased permission module coverage from 45% to 92% by applying the test pyramid (unit/integration), using parameterized fixtures, setting a coverage threshold in GitHub Actions, and reviewing PRs; achieved a 35% reduction in critical bugs over 2 sprints.",
+          "Performance (DRF/PostgreSQL): Reduced average latency to ~120 ms in endpoints (authentication, permissions, pagination, filters) by eliminating N+1 queries with select_related/prefetch_related, creating PostgreSQL indexes, tuning pagination, and adding caching.",
+          "Security / Access (RBAC): Designed and implemented multi-tenant RBAC with scopes by client/role/plan, change auditing, and automated tests for critical rules.",
+          "PDF Automation (WeasyPrint + Jinja2): Automated PDF generation and storage in AWS S3, eliminating manual tasks and speeding up operational processes.",
+          "Token Revocation (Cognito/DynamoDB): Implemented secure token revocation using irreversible hash of the idToken and logging in Amazon DynamoDB.",
+          "Images & Cost Optimization (AWS Lambda + S3 Glacier): Optimized the image pipeline with AWS Lambda and archiving in S3 Glacier, enhancing security and reducing storage costs.",
+          "Offline Sync (FastAPI/Pydantic/SQLAlchemy): Improved offline microservice with schema validation and reconciliation with the API; reduced duplicates and incidents."
         ]
       },
       "stack": [

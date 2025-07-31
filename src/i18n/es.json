@@ -2,30 +2,30 @@
   "greeting": "Hola, soy <1>Jeiikot Ramos</1>. 👋",
   "typewriter": [
     "Backend developer con más de 5 años de experiencia",
-    "Experiencia sólida en Python, Django REST Framework y AWS",
-    "Diseño de APIs REST/GraphQL, automatización y arquitecturas escalables",
-    "Apasionado por la calidad, el código limpio y CI/CD"
+    "Sólida experiencia en Python, Django REST Framework y AWS",
+    "Diseño de APIs REST y GraphQL, automatización y arquitecturas escalables",
+    "Apasionado por la calidad de software, principios SOLID, Clean Code y las prácticas CI/CD"
   ],
   "resume": "Descargar hoja de vida",
-  "resume_link": "https://drive.google.com/file/d/1QJcPNE2AquSSW3EERElbEsoYEKQ5SGb3/view?usp=drive_link",
+  "resume_link": "https://drive.google.com/file/d/1kcAWGj2uHhDb9lDTwpr5fHT3EcjAtTPX/view?usp=sharing",
   "profile_alt": "Foto de Jeiikot",
-  "profile": "Desarrollador Backend con experiencia en APIs robustas...",
+  "profile": "Backend Developer con 5+ años diseñando e implementando APIs REST con Python y Django REST Framework. Experiencia en AWS Lambda, AWS Batch, Amazon S3, Amazon S3 Glacier, Amazon Cognito, Amazon DynamoDB, CI/CD con GitHub Actions y pruebas con Pytest; diseño de RBAC y generación de reportes PDF. Practico Clean Code y principios SOLID para entregar software mantenible, seguro y escalable.",
   "projects": "Proyectos",
 
   "about_title": "Sobre mi",
   "about_whoami": "¿Quién soy?",
-  "about_me": "Soy <1>Jeiikot Ramos</1> 😄",
-  "about_backend": "Backend developer con experiencia en la creación de APIs robustas, seguras y escalables.",
-  "about_aws": "Experiencia sólida en integración con AWS, autenticación y automatización de reportes.",
-  "about_quality": "Comprometido con la calidad del software, las buenas prácticas y las pruebas automatizadas.",
-  "about_love": "Me encanta:",
+  "about_me": "Soy <1>Jeiikot Ramos</1>, Ingeniero Electrónico y Backend developer con más de 5 años diseñando e implementando APIs REST con Python y Django REST Framework.",
+  "about_backend": "Backend developer con más de 5 años de experiencia en diseño e implementación de APIs REST con Python y Django REST Framework.",
+  "about_aws": "Experiencia en AWS Lambda, AWS Batch, S3, S3 Glacier, Cognito y DynamoDB, así como en automatización de reportes.",
+  "about_quality": "Practico Clean Code y principios SOLID; elevé la cobertura de pruebas al 92% con Pytest, reduciendo ~35% de bugs críticos en 2 sprints.",
+  "about_love": "Me apasiona:",
   "about_love_list": [
-    "aprender nuevas tecnologías",
-    "resolver problemas complejos",
-    "colaborar en equipo",
-    "mejorar procesos"
+    "practicar Clean Code y SOLID",
+    "aumentar la cobertura de pruebas con Pytest",
+    "optimizar el rendimiento de APIs",
+    "automatizar procesos en AWS"
   ],
-  "about_history": "Desde 2018 he buscado y aprendido nuevas tecnologías en el desarrollo backend. He trabajado en proyectos emocionantes, en empresas líderes y con personas increíbles.",
+  "about_history": "Desde 2018 he trabajado en proyectos de backend con Python/Django, integrando AWS y liderando soluciones de permisos y generación automática de reportes.",
   "about_location": "Neiva, Colombia",
 
   "contact": "Contacto",
